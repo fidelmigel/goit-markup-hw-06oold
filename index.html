@@ -9,22 +9,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body class="page">
+    <!-- Site header -->
     <header class="header">
       <div class="container">
+        <!-- Site navigation block -->
         <nav class="site-nav">
-          <a class="link logo" href="./index.html"
-            >Web<span class="logo-color">Studio</span></a
-          >
+          <!-- Web-studio Logo -->
+          <a class="link logo" href="./index.html"><span class="accent">Web</span>Studio</a>
           <ul class="list">
             <li class="item">
               <a class="link page current" href="./index.html">Студія</a>
@@ -38,187 +38,146 @@
           </ul>
         </nav>
 
+        <!-- Web-studio contacts -->
         <ul class="list contact-list">
           <li class="item">
-            <a class="link" href="mailto:info@devstudio.com">
-              info@devstudio.com</a
-           >
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="item">
-            <a class="link" href="tel:+380961111111">
-              +38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
+
+    <!-- Site main information -->
     <main class="main">
-      <section class="section hero overlay">
+      <!-- Hero section -->
+      <section class="section hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button primary" type="button">Замовити послугу</button>
         </div>
       </section>
 
-      <section class="section benefits">
+      <!-- Company features section -->
+      <section class="section features">
         <div class="container">
+          <!-- This h2 will be invisible -->
           <h2 class="section-title">Особливості нашої компанії</h2>
-          <ul class="list benefits-list">
+          <ul class="list features-list">
             <li class="item">
-              <div class="wrapper">
-                <svg class="icon" width="70" height="70">
-                  <use href="./images/symbol-defs2.svg#icon-antenna-1">
-                  </use>
-                </svg>
-                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="title">Увага до деталей</h3>
               <p class="description">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                позиції.
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-          </div>
             <li class="item">
-              <div class="wrapper">
-                <svg class="icon" width="70" height="70">
-                  <use href="./images/symbol-defs2.svg#icon-clock-1">
-
-                  </use>
-                </svg>
-                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                <p class="description">
-                  Завдання організації, особливо рамки і місце навчання кадрів
-                  тягне у себе.
-                </p>
-              </div>
-              
+              <h3 class="title">Пунктуальність</h3>
+              <p class="description">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
             </li>
-             
             <li class="item">
-              <div class="wrapper">
-                <svg class="icon" width="70" height="70">
-                  <use href="./images/symbol-defs2.svg#icon-diagram-1">
-                  </use>
-                </svg>
-              </div>
-              <h3 class="title">ПЛАНУВАННЯ</h3>
+              <h3 class="title">Планування</h3>
               <p class="description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item">
-              <div class="wrapper">
-                <svg class="icon" width="70" height="70">
-                  <use href="./images/symbol-defs2.svg#icon-astronaut-1">
-
-                  </use>
-                </svg>
-              </div>
-              <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="title">Сучасні технології</h3>
               <p class="description">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
         </div>
       </section>
+
+      <!-- WebStudio work examples section -->
       <section class="section work-examples">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list work-list">
             <li>
               <img
+                class="img"
                 src="./images/pc1.jpg"
-                alt="Чоловік програмує на комп'ютері"
+                alt="Людина працює за комп'ютером"
                 width="370"
               />
             </li>
             <li>
               <img
+                class="img"
                 src="./images/pc2.jpg"
-                alt="Жінка працює за ноутбуком"
+                alt="Людина працює за комп'ютером"
                 width="370"
               />
             </li>
             <li>
               <img
+                class="img"
                 src="./images/pc3.jpg"
-                alt="Жінка працює на планшеті"
+                alt="Людина працює за комп'ютером"
                 width="370"
               />
             </li>
           </ul>
         </div>
       </section>
+
+      <!-- Team section -->
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list team-list">
-            <li class="photo">
-              <img
-                src="./images/man1.jpg"
-                alt="Ігор Дем'яненко фото"
-                width="270"
-              />
-              <div class="teammate-title">
+            <li class="card">
+              <img src="./images/man1.jpg" alt="Дизайнер Ігор Дем'яненко" width="270" />
+              <div class="title-box">
                 <h3 class="title">Ігор Дем'яненко</h3>
-                <p class="description">Product Designer</p>
+                <p class="description" lang="en">Product Designer</p>
               </div>
             </li>
-            <li class="photo">
-              <img
-                src="./images/woman.jpg"
-                alt="Ольга Рєпіна фото"
-                width="270"
-              />
-              <div class="teammate-title">
+            <li class="card">
+              <img src="./images/woman.jpg" alt="Фронт Енд розробник Ольга Рєпіна" width="270" />
+              <div class="title-box">
                 <h3 class="title">Ольга Рєпіна</h3>
-                <p class="description">Frontend Developer</p>
+                <p class="description" lang="en">Frontend Developer</p>
               </div>
             </li>
-            <li class="photo">
-              <img
-                src="./images/man2.jpg"
-                alt="Микола Тарасов фото"
-                width="270"
-              />
-              <div class="teammate-title">
+            <li class="card">
+              <img src="./images/man2.jpg" alt="Маркетолог Микола Тарасов" width="270" />
+              <div class="title-box">
                 <h3 class="title">Микола Тарасов</h3>
-                <p class="description">Marketing</p>
+                <p class="description" lang="en">Marketing</p>
               </div>
             </li>
-            <li class="photo">
-              <img
-                src="./images/man3.jpg"
-                alt="Михайло Єрмаков фото"
-                width="270"
-              />
-              <div class="teammate-title">
+            <li class="card">
+              <img src="./images/man3.jpg" alt="Дизайнер Михайло Єрамаков" width="270" />
+              <div class="title-box">
                 <h3 class="title">Михайло Єрмаков</h3>
-                <p class="description">UI Designer</p>
+                <p class="description" lang="en">UI Designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+
+    <!-- Site footer -->
+    <footer class="footer">
       <div class="container">
-        <a class="link logo" href="./index.html"
-          >Web<span class="footer-logo-color">Studio</span></a
-        >
+        <!-- Web-studio Logo -->
+        <a class="link logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <!-- Web-studio contacts -->
         <address class="contacts">
           <ul class="list">
-            <li class="item-adress">
-              <a
-                class="link contact"
-                href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859?hl=ru
-        "
-                target="_blank"
-                rel="noreferrer noopener"
+            <li class="item">
+              <a class="link gmaps" href="https://goo.gl/maps/LqEMvfZFrGtLSNi77" target="_blank"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-
             <li class="item">
               <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
