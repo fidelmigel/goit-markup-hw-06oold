@@ -241,6 +241,7 @@
   .main .section.work-examples .section-title {
     margin-top: 0;
     margin-bottom: 50px;
+    text-align: center;
   }
   .main .section.work-examples .list.work-list {
     display: flex;
@@ -260,6 +261,7 @@
   .main .section.team .section-title {
     margin-top: 0;
     margin-bottom: 50px;
+    text-align: center;
   }
   .main .section.team .list.team-list {
     display: flex;
