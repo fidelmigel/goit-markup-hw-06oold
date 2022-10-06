@@ -451,7 +451,7 @@ ________________________________________________________________________________
                  .main .section.projects .projects-list .img {
                      display: block;
                  }
-        
+    
                  /* список проєктів */
                  .main .section.projects .projects-list .title-box {
                      padding: 20px 24px;
@@ -472,7 +472,7 @@ ________________________________________________________________________________
                  
                  .main .section.projects .projects-list .description {
                      margin: 0;
-                     font-size: var(--primary-fnt-size);
+                     font-size: var(--primary-font-size);
                      line-height: 1.88;
                  }
 
