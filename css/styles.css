@@ -386,6 +386,7 @@
         line-height: 1.71;
         color: var(--secondary-text-color);
         font-style: normal;
+        text-decoration: none;
     }
 
     .footer .contacts .list .item.item:not(:last-child) {
