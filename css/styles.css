@@ -456,11 +456,13 @@ ________________________________________________________________________________
                  .main .section.projects .list.projects-list {
                      display: flex;
                      flex-wrap: wrap;
+                    
                  }
         
                  .main .section.projects .projects-list .item {
                      width: calc((100% - 60px) / 3);
                  }
+                
         
                  /* Прибираю margin-right для 3 */
                  .main .section.projects .projects-list .item:not(:nth-child(3n)) {
