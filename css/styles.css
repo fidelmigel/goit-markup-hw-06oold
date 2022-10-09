@@ -200,7 +200,7 @@ padding: 24px 0;
     font-weight: var(--primary-font-weight);
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 }
 
 .header .site-nav .link.page:hover,
@@ -378,7 +378,7 @@ padding: 24px 0;
         font-size: var(--primary-font-size);
         line-height: 1.19;
         text-align: center;
-        color: var(--title-text-color);
+        color: #212121;
     }
 
     /* розташуваня фото Опис*/
@@ -389,8 +389,9 @@ padding: 24px 0;
         font-size: var(--primary-font-size);
         line-height: 1.19;
         text-align: center;
+       
     }
-
+         
     /* FOOTER*/
     .page-footer {
         padding: 60px 0;
@@ -403,26 +404,37 @@ padding: 24px 0;
         color: var(--secondary-text-color);
     }
 
-    .footer .contacts .link.contact {
-        line-height: 1.71;
-        color: rgba(255, 255, 255, 0.6);
-    }
+    
 
-    .footer .contacts .link.contact:hover {
+    .footer .contacts .link-contact:hover {
         color: var(--primary-accent-color);
     }
 
     .item-adress{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 9px;
         line-height: 1.71;
         color: var(--secondary-text-color);
         font-style: normal;
         text-decoration: none;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+      
     }
-
-    .footer .contacts .list .item.item:not(:last-child) {
+    .link-contact-post {
+        display: flex;
         margin-bottom: 9px;
+        text-decoration: none;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
     }
+    .link-contact-telephone {
+        text-decoration: none;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
 
+    }
     
 
 
@@ -494,7 +506,7 @@ ________________________________________________________________________________
                      font-size: 18px;
                      line-height: 2;
                      letter-spacing: 0.06em;
-                     color: var(--title-text-clr);
+                     color: var(--title-text-color);
                  }
         
                  
