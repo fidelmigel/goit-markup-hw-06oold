@@ -412,19 +412,30 @@ padding: 24px 0;
 
     .item-adress{
         display: flex;
-        margin-top: 20px;
         margin-bottom: 9px;
         line-height: 1.71;
         color: var(--secondary-text-color);
         font-style: normal;
         text-decoration: none;
         line-height: 1.71;
-        color: rgba(255, 255, 255, 0.6);
+        color: #ffffff;
       
     }
+
+    .contacts {
+        margin-top: 20px;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+
+    }
+
+
     .link-contact-post {
         display: flex;
-        margin-bottom: 9px;
         text-decoration: none;
         line-height: 1.71;
         color: rgba(255, 255, 255, 0.6);
