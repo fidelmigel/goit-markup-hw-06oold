@@ -425,10 +425,18 @@ padding: 24px 0;
         .taemmate-soc-link {
             width: 100%;
             height: 100%;
-            background: var(--primary-accent-color);
+            background: var(--primary-background-color);
+            fill:  #AFB1B8;
             border-radius: 50%;
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+
+                .taemmate-soc-link:hover ,.taemmate-soc-link:focus {
+                    background-color: var(--primary-accent-color);
+                    fill: var(--primary-background-color);
+                }
 
         /* Clients*/
 
@@ -449,9 +457,20 @@ padding: 24px 0;
                     height: 100%;
                     border: 1px solid #AFB1B8;
                     border-radius: 4px ;
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center
+                    background: var(--primary-background-color);
+                        fill: #AFB1B8;
 
                 }
+
+                                .clients-link:hover,.clients-link:focus {
+                                    background-color: var(--primary-background-color);
+                                        fill: var(--primary-accent-color);
+                                        border-color: var(--primary-accent-color);
+                                }
+
         
                
         
