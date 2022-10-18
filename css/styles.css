@@ -226,6 +226,9 @@ padding: 24px 0;
     color: var(--primary-accent-color);
 }
 
+.icon-envelope {
+    fill: currentColor;
+}
 
 
 /* MAIN*/
