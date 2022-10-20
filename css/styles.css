@@ -485,15 +485,12 @@ padding: 24px 0;
                         text-align: center;
                         color: var(--title-text-color);
 
-
-
                 }
                 .clients-list {
                     display: flex;
                     gap: 30px;
-                }
-        
-                
+                    
+                } 
         
                 .clients-item {
                     width: calc((100% - 150px) /6);
@@ -507,8 +504,8 @@ padding: 24px 0;
                     border-radius: 4px ;
                     display: flex;
                     align-items: center;
-                    justify-content: center
-                    background: var(--primary-background-color);
+                    justify-content: center;
+                    var(--background-color): var(--primary-background-color);
                         fill: #AFB1B8;
 
                 }
