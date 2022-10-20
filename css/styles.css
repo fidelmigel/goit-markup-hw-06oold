@@ -291,6 +291,35 @@ padding: 24px 0;
         padding-top: 94px;
         padding-bottom: 94px;
     }
+.benefit-item::before {
+    display: block;
+    content: " ";
+    height: 120px;
+    background-size: contain;
+    outline: 1px solid tomato;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.benefit-item.icon-antenna::before {
+    background-image: url(./images/symbol-defs.svg#icon-antenna-1);
+
+}
+
+.benefit-item.icon-clock::before {
+    background-image: url(./images/symbol-defs.svg#icon-clock-1);
+
+}
+.benefit-item.icon-diagram::before {
+    background-image: url(./images/symbol-defs.svg#icon-diagram-1);
+
+}
+
+.benefit-item.icon-diagram::before {
+    background-image: url(./images/symbol-defs.svg#icon-astronaut-1);
+
+}
+
+
 
     .main .section.benefits .section-title {
         position: absolute;
@@ -442,7 +471,26 @@ padding: 24px 0;
                 }
 
         /* Clients*/
+        .clients-container {
+            padding-top: 94px;
+            padding-bottom: 94px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 74.5px;
+            margin-right: 74.5px;
+            
+        }
 
+                .clients-section-title {
+                    margin-bottom: 50px;
+                    font-size: 36px;
+                        line-height: 1.17;
+                        text-align: center;
+                        color: var(--title-text-color);
+
+
+
+                }
                 .clients-list {
                     display: flex;
                     gap: 30px;
