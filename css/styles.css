@@ -532,8 +532,6 @@ padding: 24px 0;
         color: var(--secondary-text-color);
     }
 
-    
-
     .footer .contacts .link-contact:hover {
         color: var(--primary-accent-color);
     }
@@ -556,12 +554,10 @@ padding: 24px 0;
 
     .footer-list {
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         gap: 9px;
         list-style: none;
-
     }
-
 
     .link-contact-post {
         display: flex;
@@ -576,15 +572,24 @@ padding: 24px 0;
 
     }
 
+    
+
     .footer-elements {
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline;
+        justify-content: space-between;
         
 
     }
+.soc-title {
+    color: #ffffff;
+
+
 
     .social-list {
-
+        display: flex: ;
+    
     }
     
 
