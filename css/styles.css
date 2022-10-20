@@ -291,33 +291,30 @@ padding: 24px 0;
         padding-top: 94px;
         padding-bottom: 94px;
     }
-.benefit-item::before {
-    display: block;
-    content: " ";
+.box-advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc((100%-90px)/4);
+    margin-bottom: 30px;
     height: 120px;
-    background-size: contain;
-    outline: 1px solid tomato;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.benefit-item.icon-antenna::before {
-    background-image: url(./images/symbol-defs.svg#icon-antenna-1);
-
+    border-radius: 4px;
+    background-color: var(--secondary-accent-color);
 }
 
-.benefit-item.icon-clock::before {
-    background-image: url(./images/symbol-defs.svg#icon-clock-1);
-
+.icon-advantages {
+    width: 70px;
+    height: 70px;
+    fill: var(--secondary-accent-color);
 }
-.benefit-item.icon-diagram::before {
-    background-image: url(./images/symbol-defs.svg#icon-diagram-1);
+    
+    
+   
+    
 
-}
 
-.benefit-item.icon-diagram::before {
-    background-image: url(./images/symbol-defs.svg#icon-astronaut-1);
 
-}
+
 
 
 
@@ -579,6 +576,17 @@ padding: 24px 0;
         text-decoration: none;
         line-height: 1.71;
         color: rgba(255, 255, 255, 0.6);
+
+    }
+
+    .footer-elements {
+        display: flex;
+        align-items: baseline;
+        
+
+    }
+
+    .social-list {
 
     }
     
