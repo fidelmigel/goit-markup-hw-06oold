@@ -535,6 +535,18 @@ margin-right: 70px;
 
 }
 
+.footer-par {
+font-size: 14px;
+    line-height: 1.17;
+    text-align: start;
+    color: #ffffff;
+
+
+}
+
+.move {
+
+}
 
 .footer .link.logo {
     display: inline-block;
@@ -587,11 +599,7 @@ margin-right: 70px;
 
 }
 
-.footer-title {
-   color: #ffffff;
-    
-    
-}
+
 
 .footer-soc-list {
     display: flex;
