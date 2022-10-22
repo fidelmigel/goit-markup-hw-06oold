@@ -463,6 +463,7 @@ span.footer-logo-color {
 
 .clients-section-title {
     margin-bottom: 50px;
+    margin-top: 94px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -478,7 +479,8 @@ span.footer-logo-color {
 
 .clients-item {
     width: calc((100% - 150px) /6);
-    height: 90px;
+    height: 92px;
+    margin-bottom: 94px;
 }
 
 .clients-link {
@@ -493,6 +495,8 @@ span.footer-logo-color {
     fill: #AFB1B8;
 
 }
+
+
 
 .clients-link:hover,
 .clients-link:focus {
