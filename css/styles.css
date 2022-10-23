@@ -461,17 +461,13 @@ span.footer-logo-color {
 /* Clients*/
 
 
-.clients-section-title {
-    margin-bottom: 50px;
-    margin-top: 94px;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--title-text-color);
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .clients-list {
+    margin-top: 50px;
     display: flex;
     gap: 30px;
 
@@ -480,8 +476,7 @@ span.footer-logo-color {
 .clients-item {
     width: calc((100% - 150px) /6);
     height: 92px;
-    margin-bottom: 94px;
-}
+    }
 
 .clients-link {
     width: 100%;
@@ -491,7 +486,6 @@ span.footer-logo-color {
     display: flex;
     align-items: center;
     justify-content: center;
-    var(--background-color): var(--primary-background-color);
     fill: #AFB1B8;
 
 }
@@ -500,7 +494,6 @@ span.footer-logo-color {
 
 .clients-link:hover,
 .clients-link:focus {
-    background-color: var(--primary-background-color);
     fill: var(--primary-accent-color);
     border-color: var(--primary-accent-color);
 }
@@ -543,6 +536,26 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 }
+
+.item-adress:hover ,
+.item-adress:focus {
+    color: var(--primary-accent-color);
+
+}
+
+.link-contact-post:hover,
+.link-contact-post:focus {
+    color: var(--primary-accent-color);
+
+}
+
+.link-contact-telephone:hover,
+.link-contact-telephone:focus {
+    color: var(--primary-accent-color);
+
+}
+
+
 
 .move {
 
@@ -626,6 +639,7 @@ height: 44px;
     align-items: center;
     justify-content: center;
 }
+
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: var(--primary-accent-color);
@@ -660,17 +674,18 @@ ________________________________________________________________________________
     padding-bottom: 94px;
 }
 
- .shadow:hover  {
+ .shadow:hover {
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
 .shadow:focus {
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
 
-.card-shadow:hover {
+.card-shadow:hover, .card-shadow:focus {
     display: block;
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
+
 
 /* Позицінування елементів */
 .main .section.projects .list.filter {
