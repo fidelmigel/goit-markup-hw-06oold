@@ -204,15 +204,35 @@ span.footer-logo-color {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    position: relative;
 }
+
+.link.page.current::after {
+    content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--primary-accent-color);
+
+        
+
+}
+
+
 
 .header .site-nav .link.page:hover,
 .header .site-nav .link.page:focus {
     color: var(--primary-accent-color);
+
 }
 
 .header .site-nav .link.page.current {
     color: var(--primary-accent-color);
+
 }
 
 /* Стиль для контактів*/
@@ -704,12 +724,18 @@ ________________________________________________________________________________
 .main .section.projects .list.projects-list {
     display: flex;
     flex-wrap: wrap;
+    
+
 
 }
 
 .main .section.projects .projects-list .item {
     width: calc((100% - 60px) / 3);
+
+    
 }
+
+
 
 
 /* Прибираю margin-right для 3 */
@@ -734,6 +760,7 @@ ________________________________________________________________________________
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
+    
 }
 
 .main .section.projects .projects-list .title {
@@ -751,4 +778,32 @@ ________________________________________________________________________________
     font-size: var(--primary-font-size);
     line-height: 1.88;
 }
+
+.item:hover .projects-top-text {
+    transform: translateY(0);
+}
+
+.projects-top-wrap {
+    position: relative;
+    overflow: hidden;
+
+}
  
+.projects-top-text {
+    position: absolute;
+    top: 0;
+    padding: 63px 24px;
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 1.5;
+    background-color: rgba(33, 150, 243, 0.9);
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 300ms linear;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
