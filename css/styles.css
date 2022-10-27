@@ -677,6 +677,7 @@ height: 44px;
     background-color: rgba(0, 0, 0, 0.2);;
     position: fixed;
     top: 0;
+    transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal {
@@ -686,9 +687,15 @@ height: 44px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms linear;
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.backdrop.is-hidden .modal {
+transform: translate(-50%, -50%) scale(0);
 }
 
 .modal-close {
