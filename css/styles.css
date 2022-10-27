@@ -205,6 +205,7 @@ span.footer-logo-color {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     position: relative;
+    padding-bottom: 32px;
 }
 
 .link.page.current::after {
@@ -217,12 +218,12 @@ span.footer-logo-color {
         height: 4px;
         border-radius: 2px;
         background: var(--primary-accent-color);
-
-        
+       
 
 }
 
 
+    
 
 .header .site-nav .link.page:hover,
 .header .site-nav .link.page:focus {
@@ -395,6 +396,37 @@ span.footer-logo-color {
 
 .main .section.work-examples .list.work-list .img {
     display: block;
+}
+
+
+.work-list-overly {
+position: relative;
+}
+
+.work-list-label {
+   
+    
+    
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0,03em;
+    text-align: center;
+    text-transform: uppercase ;
+    color: #ffffff;
+       
+    
+}
+
+.work-list-label {
+    position: absolute;
+    width: 100%;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.8);
+        bottom: 0;
+        padding: 27px ;
+        
 }
 
 /* Команда*/
