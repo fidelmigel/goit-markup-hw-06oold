@@ -738,6 +738,12 @@ height: 44px;
     fill: var(--primary-background-color);
 }
 
+
+.footer-mailing-list {
+
+
+}
+
 /* Модальне вікно*/
 
 .backdrop {
@@ -830,6 +836,8 @@ transform: translate(-50%, -50%) scale(0);
     padding-left: 42px;
     outline: transparent;
 }
+
+
 .modal-input:focus {
     border-color: var(--primary-accent-color);
 }
@@ -860,6 +868,8 @@ margin-top: 11px;
    width: 200px; 
    height: 50px;
    background: var(--primary-accent-color);
+   display: block; 
+   margin: 0 auto;
    
 
 }
