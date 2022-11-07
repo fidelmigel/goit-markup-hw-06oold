@@ -848,10 +848,15 @@ fill: var(--primary-accent-color);
 
  .modal-field {
 margin-top: 11px;
+position: relative;
+ }
+
+ .modal-field:focus {
+color: var(--primary-accent-color);
  }
 
 .input-wrap {
-    position: relative;
+    
     margin-bottom: 11px;
    
 }
@@ -860,7 +865,6 @@ margin-top: 11px;
     position: absolute;
     left: 12px;
     top: 50%;
-    transform: translateY(-50%);
     transform: translateX(-50%);
 }
 
@@ -889,7 +893,10 @@ margin-top: 11px;
     letter-spacing: 0.01em;
     padding-left: 16px;
     padding-top: 12px;
+    
 }
+
+
 
 .email-form {
 display: inline-block;
