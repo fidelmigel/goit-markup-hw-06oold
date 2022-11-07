@@ -898,9 +898,9 @@ color: var(--primary-accent-color);
     letter-spacing: 0.01em;
     padding-left: 16px;
     padding-top: 12px;
-   
-    
 }
+
+
 
 
 
@@ -922,7 +922,9 @@ height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
-background: var(--secondary-background-color)
+background: var(--secondary-background-color);
+outline: none;
+
 }
 
 .email-input::placeholder {
@@ -933,7 +935,14 @@ background: var(--secondary-background-color)
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 16px;
+   
 }
+
+.email-input::placeholder:focus {
+    border: 1px solid var(--background-color);
+}
+
+
 
 .subscription-button {
     display: flex;
@@ -945,10 +954,8 @@ background: var(--secondary-background-color)
     background: var(--primary-accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-       
-       
-       
-
+     border: 0;
+     
 }
 .icon-send {
     transform: translateX(50%);
