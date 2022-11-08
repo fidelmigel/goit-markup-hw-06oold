@@ -968,7 +968,64 @@ outline: none;
     color: var(--primary-background-color);
 }
 
+.check-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+   
+}
 
+.check-text span {
+width: 16px;
+height: 15px;
+color: var(--title-text-color);
+border: 2px solid;
+margin-right: 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+}
+
+.input-check:checked +.check-text span {
+background-color: var(--primary-accent-color);
+border-color: transparent;
+fill: var(--primary-background-color);
+}
+
+.input-check:focus +.check-text span {
+    border-color: var(--primary-accent-color);
+}
+
+/* спосіб без спрайту (не можна змінити кольор)
+
+.check-text::before {
+content: "";
+width: 16px;
+height: 15px;
+color: var(--title-text-color) ;
+border: 2px solid ;
+margin-right: 7px;
+}
+
+.input-check:checked + .check-text::before {
+background-color: #2196F3;
+border-color: transparent;
+background-image: url(шлях до викачоної svg не в спрайті);
+background-repeate: no-repeat;
+}*/
+
+
+.confirmation-link {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-left: 5px;
+    color: var(--primary-accent-color);
+    text-decoration: underline;
+    
+}
 
    
 
