@@ -442,7 +442,7 @@
           <div class="modal-field">
             <label for="user-name">Ім'я</label>
             <div class="input-wrap">
-              <input type="text" name="user-name" class="modal-input" id="user-name" />
+              <input type="text" name="user-name" class="modal-input" id="user-name" required/>
               <svg class="modal-input-icon" widht="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-person-modal"></use>
               </svg>
@@ -451,7 +451,8 @@
           <div class="modal-field">
             <label for="user-tel">Телефон</label>
             <div class="input-wrap">
-              <input type="text" name="user-tel" class="modal-input" id="user-tel" />
+              <input type="tel" name="user-tel" class="modal-input" id="user-tel" 
+              required />
               <svg class="modal-input-icon" widht="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
               </svg>
@@ -460,18 +461,18 @@
           <div class="modal-field">
             <label for="user-email">Пошта</label>
             <div class="input-wrap">
-              <input type="text" name="user-email" class="modal-input" id="user-email" />
+              <input type="email" name="user-email" class="modal-input" id="user-email" required />
               <svg class="modal-input-icon" widht="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-email-modal"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-comment">Коментар</label>
+            <label for="user-comment ">Коментар</label>
             <textarea
               name="user-comment"
               id="user-comment"
-              class="modal-user-text"
+              class="modal-user-text modal-input"
               placeholder="Введіть текст"
             ></textarea>
           </div>
