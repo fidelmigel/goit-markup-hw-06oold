@@ -853,6 +853,8 @@ span.footer-logo-color {
     position: relative;
 }
 
+
+
 .modal-field:focus {
     color: var(--primary-accent-color);
 }
@@ -899,9 +901,10 @@ span.footer-logo-color {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    padding-left: 16px;
     padding-top: 12px;
 }
+
+
 
 
 
@@ -937,8 +940,8 @@ span.footer-logo-color {
     line-height: 1, 25;
     color: rgba(255, 255, 255, 0.6);
     padding-left: 16px;
-    padding-top: 15px;
-    padding-bottom: 16px;
+    
+    
 
 }
 
